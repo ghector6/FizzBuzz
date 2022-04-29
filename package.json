@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ghector6/FizzBuzz#readme",
   "devDependencies": {
-    "jest": "^28.0.2"
+    "jest": "^26.0.0"
   }
 }
