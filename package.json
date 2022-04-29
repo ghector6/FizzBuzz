@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ghector6/FizzBuzz/issues"
   },
-  "homepage": "https://github.com/ghector6/FizzBuzz#readme"
+  "homepage": "https://github.com/ghector6/FizzBuzz#readme",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }
