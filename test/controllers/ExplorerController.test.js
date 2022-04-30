@@ -9,6 +9,6 @@ describe("Test to see if my methods at ExplorerController are working", () => {
 
     test("if I get the userName of my explorer with map", () => {
         const explorers = ExplorerController.getExplorersUsernamesByMission("node")
-        expect(explorers[0]).toBe("ajolonauta5")
+        expect(explorers[0]).toBe("ajolonauta1")
     })
 })
