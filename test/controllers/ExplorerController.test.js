@@ -11,4 +11,15 @@ describe("Test to see if my methods at ExplorerController are working", () => {
         const explorers = ExplorerController.getExplorersUsernamesByMission("node");
         expect(explorers[0]).toBe("ajolonauta1");
     });
+
+    test("if getting the number input bu user is working ", () => {
+        const fizz = ExplorerController.getNumberAssignedByUser(9)  
+        const buzz = ExplorerController.getNumberAssignedByUser(10)
+        const fizzbuzz = ExplorerController.getNumberAssignedByUser(15)      
+        expect(fizzbuzz).toBe("FIZZBUZZ!!")
+        expect(buzz).toBe("BUZZ")
+        expect(fizz).toBe("FIZZ")
+    })
+
+    
 });
