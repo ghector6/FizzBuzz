@@ -26,4 +26,19 @@ describe("Tests for FizzBuzz services", () => {
         const explorerNormal = FizzbuzzService.applyValidationInExplorer(explorer[0]);
         expect(explorerNormal.trick).toBe(1);
     });
+
+    test("to see if the assigned number by user prints FIZZBUZZ!!", () => {
+        const number = FizzbuzzService.applyValidationInNumber(15)
+        expect(number).toBe("FIZZBUZZ!!")
+    })
+
+    test("to see if the number assignes by user print FIZZ", () => {
+        const number = FizzbuzzService.applyValidationInNumber(9)
+        expect(number).toBe("FIZZ")
+    })
+
+    test("to see if the number assigned by user prints BUZZ", () => {
+        const number = FizzbuzzService.applyValidationInNumber(10)
+        expect(number).toBe("BUZZ")
+    })
 });
