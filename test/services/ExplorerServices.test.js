@@ -17,10 +17,10 @@ describe("Test para ExplorerService", () => {
     });
 
     test("to see if im getting elements from stack array", () => {
-        const explorers = [{stacks: "elm"}]
-        const explorersStack = ExplorerServices.filterByStack(explorers, "elm")
-        expect(explorersStack.length).toBe(1)
-    })
+        const explorers = [{stacks: "elm"}];
+        const explorersStack = ExplorerServices.filterByStack(explorers, "elm");
+        expect(explorersStack.length).toBe(1);
+    });
     
 
         
