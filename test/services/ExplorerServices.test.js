@@ -15,6 +15,12 @@ describe("Test para ExplorerService", () => {
         const nameByMission = ExplorerServices.getExplorersUserNameByMission(explorers, "node");
         expect(nameByMission[0]).toBe("ajolonauta1");
     });
+
+    test("to see if im getting elements from stack array", () => {
+        const explorers = [{stacks: "elm"}]
+        const explorersStack = ExplorerServices.filterByStack(explorers, "elm")
+        expect(explorersStack.length).toBe(1)
+    })
     
 
         
